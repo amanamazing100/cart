@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'w+id!f9_56&)zdpt*lp17jv%0)jbpqp-jqxj^t0(ny-xzf8)rj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['student-crm2.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
