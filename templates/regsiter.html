@@ -1,0 +1,7 @@
+<html>
+{%csrf_token%}
+{%for field in forms%}
+{{field.label}}
+{{field}}
+{%endfor%}
+</html>
